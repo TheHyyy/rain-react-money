@@ -8,6 +8,7 @@ import Icon from './icon';
 
 
 const NavWrapper = styled.nav`
+  background-color:white;
   box-shadow: 0 0 3px rgba(0,0,0,0.25);
   line-height:24px;
   >ul {

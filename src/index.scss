@@ -27,6 +27,9 @@ body{
   height: 1em;
   display: inline-block;
 }
+:focus{
+  outline:none;
+}
 button{
   font-family: inherit;
 }
