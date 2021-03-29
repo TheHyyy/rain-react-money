@@ -1,4 +1,4 @@
-import Layout from 'components/Layout';
+import { MyLayout } from "components/MyLayout";
 import React from "react";
 import styled from 'styled-components';
 import { CategorySection } from './Money/CategorySection';
@@ -7,15 +7,9 @@ import { NumberPadSection } from './Money/NumberPadSection';
 import { TagsSection } from './Money/TagSection';
 
 
-const MyLayout= styled(Layout)`
-  border:1px solid red;
-  display:flex;
-  flex-direction:column;
-`
-
 function Money(){
   return (
-    <MyLayout className="xxx">
+    <MyLayout>
         <TagsSection>
           <ol>
               <li>外卖</li>
